@@ -1,0 +1,8 @@
+* Try
+
+#+begin_src shell
+  git submodule update --init --recursive
+  bundle install
+  bundle exec ruby demo-program.rb
+#+end_src
+
