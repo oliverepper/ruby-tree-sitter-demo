@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
+    kramdown-syntax_tree_sitter (0.6.0)
+      kramdown (~> 2.0)
+      rake (~> 13.0)
+      rutie (~> 0.0.4)
+    rake (13.2.1)
+    rexml (3.4.0)
+    rutie (0.0.4)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  kramdown-syntax_tree_sitter
+
+BUNDLED WITH
+   2.5.22
